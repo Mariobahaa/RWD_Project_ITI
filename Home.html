@@ -12,48 +12,61 @@
             background-color: dimgray;
 
         }
-        
-        @media(min-width: 992px){
+
+
+
+        .first {
+            width: 25%;
+        }
+
+
+
+        @media (min-width: 768px) {
+            ul li a img {
+                width: 50%!important;
+            }
+        }
+
+        @media(min-width: 992px) {
             #NB {
                 width: 20% !important;
                 background-color: dimgray !important;
-         
+
             }
+
+            ul li a img {
+                width: 100% !important;
+            }
+
         }
- 
+
     </style>
 
 </head>
 
 <body>
-    
-    <!--nav class="navbar navbar-expand-lg navbar-dark bg-primary "-->
 
-    <nav class="navbar navbar-expand navbar-dark bg-primary d-lg-fixed" id="NB" >
+    <nav class="navbar navbar-expand navbar-dark bg-primary d-lg-fixed" id="NB">
         <div class="container-fluid">
-            <!--<a class="navbar-brand" href="#">Navbar</a>-->
-            <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>-->
-            <div class="collapse navbar-collapse " id="navbarNav" >
-               <!--<ul class="navbar-nav  row flex-wrap align-content-center justify-content-center flex-lg-column">-->
-                    <ul class="navbar-nav  row flex-wrap  flex-lg-column  justify-content-evenly">
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <!--<ul class="navbar-nav  row flex-wrap align-content-center justify-content-center flex-lg-column">-->
+                <ul class="navbar-nav  row flex-wrap  flex-lg-column  justify-content-evenly">
                     <li class="nav-item col-12  d-block text-center col-md-3  col-lg-6 offset-lg-2 ">
-                        <a class="nav-link active text-center " aria-current="page" href="#" ><img src="./assets/u5.png"  class="img-fluid rounded-circle col-3 col-md-6 col-lg-12"></a>
-                    
+                        <a class="nav-link active text-center " aria-current="page" href="#"><img src="./assets/u5.png" class="img-fluid rounded-circle first"></a>
+
                     </li>
                     <li class="nav-item col-3  d-block col-lg-6 offset-lg-2">
                         <a class="nav-link text-center" href="#">
-                            <img src="./assets/u3.png" class="img-fluid rounded-circle col-md-6 col-lg-12" >
+                            <img src="./assets/u3.png" class="img-fluid rounded-circle ">
                         </a>
                     </li>
-                    <li class="nav-item col-3 d-block  col-lg-6 offset-lg-2" >
-                        <a class="nav-link text-center" href="#"><img src="./assets/u2.png" class="img-fluid  rounded-circle col-md-6 col-lg-12"></a>
+                    <li class="nav-item col-3 d-block  col-lg-6 offset-lg-2">
+                        <a class="nav-link text-center" href="#"><img src="./assets/u2.png" class="img-fluid  rounded-circle"></a>
                     </li>
                     <li class="nav-item col-3  d-block  col-lg-6 offset-lg-2">
-                        <a class="nav-link text-center" href="#" tabindex="-1" >  
-                       <img src="./assets/u4.png" class="img-fluid  rounded-circle col-md-6 col-lg-12"></a>
-                    
+                        <a class="nav-link text-center" href="#" tabindex="-1">
+                            <img src="./assets/u4.png" class="img-fluid  rounded-circle"></a>
+
                     </li>
                 </ul>
             </div>
@@ -61,10 +74,14 @@
     </nav>
 
     <div class="container">
+
+
     </div>
 
     <script src="./JS/popper.min.js"></script>
     <script src="./bootstrap-5.0.0-beta1-dist/js/bootstrap.js"></script>
 
 
-</body></html>
+</body>
+
+</html>
