@@ -12,6 +12,14 @@
             background-color: dimgray;
 
         }
+        
+        @media(min-width: 992px){
+            #NB {
+                width: 20% !important;
+                background-color: dimgray !important;
+         
+            }
+        }
  
     </style>
 
@@ -21,7 +29,7 @@
     
     <!--nav class="navbar navbar-expand-lg navbar-dark bg-primary "-->
 
-    <nav class="navbar navbar-expand navbar-dark bg-primary" >
+    <nav class="navbar navbar-expand navbar-dark bg-primary d-lg-fixed" id="NB" >
         <div class="container-fluid">
             <!--<a class="navbar-brand" href="#">Navbar</a>-->
             <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,19 +37,19 @@
             </button>-->
             <div class="collapse navbar-collapse " id="navbarNav" >
                 <ul class="navbar-nav  row flex-wrap align-content-center justify-content-center flex-lg-column">
-                    <li class="nav-item col-12  d-block text-center col-md-3  col-lg-4">
+                    <li class="nav-item col-12  d-block text-center col-md-3  col-lg-6 offset-lg-2 h-25">
                         <a class="nav-link active text-center " aria-current="page" href="#" ><img src="./assets/u5.png"  class="img-fluid rounded-circle col-5 col-md-12"></a>
                     
                     </li>
-                    <li class="nav-item col-4 d-block col-md-3 col-lg-4">
+                    <li class="nav-item col-4 d-block col-md-3 col-lg-6 offset-lg-2">
                         <a class="nav-link text-center" href="#">
                             <img src="./assets/u3.png" class="img-fluid rounded-circle" >
                         </a>
                     </li>
-                    <li class="nav-item col-4 d-block col-md-3 col-lg-4" >
+                    <li class="nav-item col-4 d-block col-md-3 col-lg-6 offset-lg-2" >
                         <a class="nav-link text-center" href="#"><img src="./assets/u2.png" class="img-fluid  rounded-circle"></a>
                     </li>
-                    <li class="nav-item col-4 d-block col-md-3 col-lg-4">
+                    <li class="nav-item col-4 d-block col-md-3 col-lg-6 offset-lg-2">
                         <a class="nav-link text-center" href="#" tabindex="-1" >  
                        <img src="./assets/u4.png" class="img-fluid  rounded-circle"></a>
                     
